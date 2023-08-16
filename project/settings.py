@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'Servers',
     'Tournament',
     'Wallet',
+    'groups',
 ]
 
 MIDDLEWARE = [
