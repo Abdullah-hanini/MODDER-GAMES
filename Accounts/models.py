@@ -35,6 +35,7 @@ class new_user (AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(gettext_lazy('Email address '),max_length=50 , unique=True)
     phone_number = models.CharField(max_length=50)
     start_date = models.DateTimeField(default=timezone.now)
+    birth_date = models.DateField(null=True, blank=True)
     is_staff = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
     is_confirmed = models.BooleanField(default=False)
