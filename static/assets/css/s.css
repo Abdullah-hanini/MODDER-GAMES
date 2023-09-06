@@ -1,0 +1,197 @@
+*{
+    font-family: tahoma;
+}
+
+#headerBar{
+background-color: #0a0a15;
+}
+#profileBtn{
+    float: right;
+    font-size: 18px;
+    padding-right: 20px;
+    
+    text-decoration: none;
+    font-size: 18px;
+    
+
+   
+    
+
+}
+
+
+#homeBtn{
+    float: left;
+    font-size: 18px;
+ 
+    text-decoration: none;
+    font-size: 18px;
+    padding: 23px;
+}
+#chatBtn{
+    float: left;
+    font-size: 18px;
+  
+    text-decoration: none;
+    font-size: 18px;
+    padding: 23px;
+
+}
+#streamBtn{
+    float: left;
+    font-size: 18px;
+  
+    text-decoration: none;
+    font-size: 18px;
+    padding: 23px;
+
+}
+#storeBtn{
+    float: left;
+    font-size: 18px;
+    
+    text-decoration: none;
+    font-size: 18px;
+    padding: 23px;
+}
+#logo{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
+    float: left;
+    padding-left: 20px;
+    color: white;
+    padding: 9px;
+    }
+
+html body{
+   color: #010038;
+   background-color: #101022 ;
+}
+#creating{
+    margin-top: 8%;
+    margin-left: 5%;
+    text-align: left;
+    color: white;
+    font-size: 63px;
+}
+#register{
+    padding-top: 8%;
+    padding-left: 150px;
+    padding-bottom: 8%;
+    padding-right: 150px;
+}
+#signUpLink{
+    color: rgba(3, 192, 205, 0.804);
+   float: left;
+   text-decoration: underline;
+}
+#logInLink{
+    color: rgba(3, 192, 205, 0.804);
+    float: right;
+    padding-bottom: 8%;
+    text-decoration: underline;
+}
+#signUp{
+    color: white;
+}
+#GenderChoice{
+opacity: 0.9;
+}
+#reset{
+    margin-left: 20px ;
+}
+
+@media only screen and (min-width:600px){ 
+    /*
+    .list{width: 25%;}
+    .body{width: 50%;}
+    .qustions{width: 75%;}*/
+        #creating{
+            font-size: 103px;
+         }    
+    
+    body{
+        background-color: green;
+    }
+    }
+    @media (orientation: landscape){
+        body{
+         background-color: black;
+        }
+     }
+    @media (min-width:768px){
+        /*
+        .list{width: 25%;}
+        .body{width: 50%;}
+        .qustions{width: 25%;}*/
+        body{
+            background-color: purple;
+        }
+        #creating{
+            font-size: 103px;
+        }  
+    }
+
+ 
+    .intl-tel-input .country-list .country{
+        color: black;
+    }
+
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+    }
+
+
+nav li:hover{
+    border-bottom:1px solid purple ;
+
+}
+#signInContainer{
+   
+    width: 40%;
+    justify-content: center;
+}
+#signInContainer label{
+    color: white;
+}
+
+#searchBar{
+justify-content: center;
+    margin-left: 100px ;
+    padding: 3px;
+     width: 450px;
+     height: 45%;
+    border-radius: 50px;
+    background: repeating-linear-gradient(10deg,lime 14.28%,blue 35.7%, magenta 42.84%);
+    background-size: 100vw 100vw;
+    animation: gradient 4s infinite linear;
+    margin-right: 200px;
+    
+    }
+    #inputSearch {
+    background-color: #121226;
+        border-radius: 50px
+    }
+    @keyframes gradient{
+        0% {
+            background-position-x:0% ;
+        }
+        100%{
+            background-position-x: 200vw ;
+        }
+    }
+    #searchBar span{
+    z-index: 100;
+    }
+    #search span::after{
+   z-index: -1;
+    }
+    
+
+    select#country {
+        border: hidden;
+        background-image: none;
+    }

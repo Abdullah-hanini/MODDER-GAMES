@@ -1,0 +1,63 @@
+{% load static %}
+<html>
+   <head>
+        <title>ModderWeb</title>
+        <link rel="stylesheet" href="{% static '/assets/css/s.css' %}">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" ></script>
+    
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/css/intlTelInput.css" rel="stylesheet" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/utils.js"></script>
+   </head>
+<body>
+
+  <nav id="headerBar" class="navbar  navbar-expand-custom navbar-mainbg navbar-expand-sm navbar-dark fixed-top">
+    <div class="navbar-brand navbar-logo" id="logo">ModderGames</div>
+    <ul class="navbar-nav "  id="navUl">
+        <li class="nav-item">
+            <a class="nav-link" href="#" id="homeBtn">Home</a>
+        </li>
+        <li class="nav-item" >
+            <a href="#" class="nav-link" id="storeBtn">Store</a>
+        </li>
+        <li class="nav-item" >
+          <a href="#" class="nav-link" id="chatBtn">Chat</a>
+      </li>
+      <li class="nav-item" >
+        <a href="#" class="nav-link" id="streamBtn">Stream</a>
+      </li>
+   
+    </ul>
+    <ul class="navbar-nav ml-auto" id="navUl2">
+      <li id="searchBar">
+        <input  id="inputSearch" type="search" class="form-control mr-sm-3" placeholder="Search">
+    </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle "  href="#" data-toggle="dropdown" id="profileBtn">Profile</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Sign Up</a>
+                <a class="dropdown-item" href="#">Log In</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+{% block content %}
+
+{% endblock content %}
+
+
+<script src="{% static 'assets/js/script.js' %}"></script>
+</body>
+</html>
